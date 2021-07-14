@@ -1,0 +1,309 @@
+body{
+    background-color: rgb(22, 22, 22);
+
+}
+
+div#calcBody{
+    width: 400px;
+    height: 500px;
+
+    position: absolute;
+    left: 35%;
+    top: 11%;
+
+    border-radius: 25px;
+
+    background-color: rgb(66, 66, 66);
+
+}
+
+div#display{
+    background-color: rgb(0, 0, 0);
+
+    width: 300px;
+    height: 50px;
+
+    border-radius: 10px;
+
+    margin-left: 12px;
+    margin-top: 20px;
+
+    position: absolute;
+
+    overflow: hidden;
+}
+
+span#previous_text{
+    color: rgb(160, 160, 160);
+
+    position: absolute;
+    right: 5px;
+    top: 6px;
+
+    font: 13px normal Aerial;
+}
+
+span#display_text{
+    color: rgb(255, 255, 255);
+
+    position: absolute;
+    right: 5px;
+    bottom: 6px;
+
+    font: 20px normal Aerial;
+
+}
+
+button{
+    background-color: rgb(167, 167, 167);
+
+    border: inherit;
+    transition: 0.05s;
+
+    font: 20px normal Aerial;
+}
+
+button#ce{
+    width: 50px;
+    height: 50px;
+
+    border-radius: 10px;
+
+    position: absolute;
+    margin-left: 332px;
+    margin-top: 20px;
+
+    text-align: center;
+    padding: 12px;
+}
+
+button:hover{
+    background-color: rgb(80, 80, 80);
+
+}
+
+button:active{
+    background-color: rgb(37, 37, 37);
+
+}
+button#b1{
+    width: 50px;
+    height: 50px;
+
+    border-radius: 15px;
+
+    position: absolute;
+    margin-left: 23px;
+    margin-top: 110px;
+
+    text-align: center;
+    padding: 12px;
+}
+button#b2{
+    width: 50px;
+    height: 50px;
+
+    border-radius: 15px;
+
+    position: absolute;
+    margin-left: 123px;
+    margin-top: 110px;
+
+    text-align: center;
+    padding: 12px;
+
+}
+button#b3{
+    width: 50px;
+    height: 50px;
+
+    border-radius: 15px;
+
+    position: absolute;
+    margin-left: 223px;
+    margin-top: 110px;
+
+    text-align: center;
+    padding: 12px;
+}
+button#b4{
+    width: 50px;
+    height: 50px;
+
+    border-radius: 15px;
+
+    position: absolute;
+    margin-left: 23px;
+    margin-top: 210px;
+
+    text-align: center;
+    padding: 12px;
+
+}
+button#b5{
+    width: 50px;
+    height: 50px;
+
+    border-radius: 15px;
+
+    position: absolute;
+    margin-left: 123px;
+    margin-top: 210px;
+
+    text-align: center;
+    padding: 12px;
+}
+button#b6{
+    width: 50px;
+    height: 50px;
+
+    border-radius: 15px;
+
+    position: absolute;
+    margin-left: 223px;
+    margin-top: 210px;
+
+    text-align: center;
+    padding: 12px;
+
+}
+button#b7{
+    width: 50px;
+    height: 50px;
+
+    border-radius: 15px;
+
+    position: absolute;
+    margin-left: 23px;
+    margin-top: 310px;
+
+    text-align: center;
+    padding: 12px;
+
+}
+button#b8{
+    width: 50px;
+    height: 50px;
+
+    border-radius: 15px;
+
+    position: absolute;
+    margin-left: 123px;
+    margin-top: 310px;
+
+    text-align: center;
+    padding: 12px;
+
+}
+button#b9{
+
+    width: 50px;
+    height: 50px;
+
+    border-radius: 15px;
+
+    position: absolute;
+    margin-left: 223px;
+    margin-top: 310px;
+
+    text-align: center;
+    padding: 12px;
+
+}
+button#bp{
+    width: 50px;
+    height: 50px;
+
+    border-radius: 15px;
+
+    position: absolute;
+    margin-left: 332px;
+    margin-top: 110px;
+
+    text-align: center;
+    padding: 12px;
+}
+
+button#bm{
+    width: 50px;
+    height: 50px;
+
+    border-radius: 15px;
+
+    position: absolute;
+    margin-left: 332px;
+    margin-top: 185px;
+
+    text-align: center;
+    padding: 12px;
+
+}
+button#bd{
+    width: 50px;
+    height: 50px;
+
+    border-radius: 15px;
+
+    position: absolute;
+    margin-left: 332px;
+    margin-top: 260px;
+
+    text-align: center;
+    padding: 12px;
+}
+button#bt{
+    width: 50px;
+    height: 50px;
+
+    border-radius: 15px;
+
+    position: absolute;
+    margin-left: 332px;
+    margin-top: 335px;
+
+    text-align: center;
+    padding: 12px;
+
+}
+button#dot{
+
+    width: 50px;
+    height: 50px;
+
+    border-radius: 15px;
+
+    position: absolute;
+    margin-left: 225px;
+    margin-top: 410px;
+
+    text-align: center;
+    padding: 12px;
+}
+
+button#b0{
+    width: 50px;
+    height: 50px;
+
+    border-radius: 15px;
+
+    position: absolute;
+    margin-left: 125px;
+    margin-top: 410px;
+
+    text-align: center;
+    padding: 12px;
+}
+
+button#equals{
+    width: 80px;
+    height: 50px;
+
+    border-radius: 15px;
+
+    position: absolute;
+    margin-left: 302px;
+    margin-top: 410px;
+
+    text-align: center;
+    padding: 12px;
+}
